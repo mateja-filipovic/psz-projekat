@@ -1,0 +1,501 @@
+IZVESTAJ ZADATKA 2
+-------------------
+a) izlistati koliki je broj nekretnina za prodaju, a koliki je broj koji se iznajmljuju
+
++-----------------+-------+
+|       Tip       | Broj  |
++-----------------+-------+
+|    Prodaja      | 17063 |
+|    Izdavanje    | 6223  |
++-----------------+-------+
+
+b) izlistati koliko nekretnina se prodaje u svakom od gradova (izlistati sve gradove,obuhvatiti i kuće i stanove)
+
++-------------------+---------+
+|       Grad        |  Broj   |
++-------------------+---------+
+|    beograd        |  12549  |
+|    novi sad       |   757   |
+|    niš            |   695   |
+|    jagodina       |   459   |
+|    zlatibor       |   445   |
+|    pančevo        |   440   |
+|    vrnjačka banja |   294   |
+|    kragujevac     |   260   |
+|    stara pazova   |   228   |
+|    kopaonik       |   216   |
+|    paraćin        |   145   |
+|    inđija         |   106   |
+|    ćuprija        |   55    |
+|    valjevo        |   55    |
+|    aranđelovac    |   41    |
+|    zrenjanin      |   39    |
+|    srbobran       |   31    |
+|    pećinci        |   30    |
+|    irig           |   29    |
+|    kovačica       |   28    |
+|    smederevo      |   27    |
+|    beočin         |   24    |
+|    sombor         |   23    |
+|    leskovac       |   23    |
+|    kruševac       |   22    |
+|    kraljevo       |   21    |
+|    sremski karlovci |  21   |
++-------------------+---------+
+
+
+c) izlistati koliko je uknjiženih, a koliko neuknjiženih kuća, a koliko stanova
+
++-------------------+--------------+------------+
+| tip nekretnine   | neuknjizeno  | uknjizeno   |
++-------------------+--------------+------------+
+|       kuća        |    1222      |   2587     |
+|       stan        |    9407      |  10070     |
++-------------------+--------------+------------+
+
+
+
+d) prikazati rang listu prvih 30 najskupljih kuća koje se prodaju, i 30 najskupljih stanova
+koji se prodaju u Srbiji
+
+kuce:
+-----------------------------------------------------------------------------------------------------------------------------------------------
+url oglasa                                                                                                                      price
+-----------------------------------------------------------------------------------------------------------------------------------------------
+ https://www.halooglasi.com/nekretnine/prodaja-kuca/savski-venac-senjak-luksuzna-vila-vrhunska-l/5425642450131?kid=1            5000000.0
+               https://www.halooglasi.com/nekretnine/prodaja-kuca/beograd-dedinje-kuca-6-0-485m2/5425642815543?kid=1            5000000.0
+https://www.halooglasi.com/nekretnine/prodaja-kuca/dedinje-diplomatska-kolonija-lux-kuca-sa-baze/5425642675544?kid=1            5000000.0
+                   https://www.halooglasi.com/nekretnine/prodaja-kuca/eksluzivna-kuca-na-dedinju/5425643137254?kid=1            4500000.0
+ https://www.halooglasi.com/nekretnine/prodaja-kuca/dedinje-rezidencijalna-zona-blizina-boticeve/5425642211609?kid=1            4500000.0
+         https://www.halooglasi.com/nekretnine/prodaja-kuca/ekskluzivna-luksuzna-kuca-na-dedinju/5425643231014?kid=4            4200000.0
+         https://www.halooglasi.com/nekretnine/prodaja-kuca/savski-venac-senjak---drinicka-830m2/5425643108733?kid=1            4000000.0
+https://www.halooglasi.com/nekretnine/prodaja-kuca/dedinje-neposredna-blizina-pinka-reprezentati/5425641382026?kid=1            4000000.0
+https://www.halooglasi.com/nekretnine/prodaja-kuca/savski-venac-senjak-izuzetna-predratna-vila-u/5425642838872?kid=1            4000000.0
+                 https://www.halooglasi.com/nekretnine/prodaja-kuca/savski-venac-dedinje---850m2/5425641412588?kid=1            4000000.0
+https://www.halooglasi.com/nekretnine/prodaja-kuca/luksuzna-vanserijska-kuca-na-15ari-placa-id89/5425634603279?kid=1            4000000.0
+        https://www.halooglasi.com/nekretnine/prodaja-kuca/serdar-jola-12a-sa-novom-kucom-1000m2/5425641809444?kid=1            3700000.0
+ https://www.halooglasi.com/nekretnine/prodaja-kuca/dedinje-rezidencijalna-zona-raskosna-repreze/5425643015101?kid=1            3600000.0
+                    https://www.halooglasi.com/nekretnine/prodaja-kuca/vracar-krunska-vila-900m2/5425625780230?kid=1            3500000.0
+https://www.halooglasi.com/nekretnine/prodaja-kuca/vracar-krunski-venac-lux-6-parking-mesta-id-7/5425642772949?kid=1            3500000.0
+             https://www.halooglasi.com/nekretnine/prodaja-kuca/vila-dedinje--neverovatna-ponuda/5425642369584?kid=1            3399999.0
+                     https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-sa-placem-od-12-ari/5425642973797?kid=1            3399999.0
+                                 https://www.halooglasi.com/nekretnine/prodaja-kuca/vila-dedinje/5425642559608?kid=4            3399999.0
+    https://www.halooglasi.com/nekretnine/prodaja-kuca/predstavljamo-vam-ovu-lux-vilu-na-dedinju/5425642589888?kid=1            3300000.0
+                https://www.halooglasi.com/nekretnine/prodaja-kuca/lepa-lokacija-1-24ha-id120875/5425642571592?kid=1            3200000.0
+                         https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca---senjak-id2438/5425636352131?kid=1            3100000.0
+                https://www.halooglasi.com/nekretnine/prodaja-kuca/hram-lux-salonska-kuca-617-m2/5425643227180?kid=4            3000000.0
+             https://www.halooglasi.com/nekretnine/prodaja-kuca/lux-vila-sa-bazenom-senjak-522m2/5425642857532?kid=1            3000000.0
+                https://www.halooglasi.com/nekretnine/prodaja-kuca/dedinje-generala-save-grujica/5425634698702?kid=1            2800000.0
+               https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca---zvezdara-volgina-id3061/5425641686189?kid=1            2600000.0
+            https://www.halooglasi.com/nekretnine/prodaja-kuca/prelepa-kuca-na-odlicnoj-lokaciji/5425636318621?kid=1            2600000.0
+                               https://www.halooglasi.com/nekretnine/prodaja-kuca/vrnjacka-banja/5425642452107?kid=1            2600000.0
+    https://www.halooglasi.com/nekretnine/prodaja-kuca/vila-sa-bazenom-na-dedinju-360m2-5a-placa/5425642856034?kid=1            2500000.0
+     https://www.halooglasi.com/nekretnine/prodaja-kuca/dedinje-rajka-mitica-10-0-kuca-od-300-m2/5425636472378?kid=1            2500000.0
+             https://www.halooglasi.com/nekretnine/prodaja-kuca/beograd-kalvarija-kuca-6-0-251m2/5425642365992?kid=1            2500000.0
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+stanovi:
+-----------------------------------------------------------------------------------------------------------------------------------------------
+url oglasa                                                                                                                        cena
+-----------------------------------------------------------------------------------------------------------------------------------------------
+         https://www.halooglasi.com/nekretnine/prodaja-stanova/vrnjacka-banja---jednosoban-apartman/5425643209703?kid=1           111111111.0
+https://www.halooglasi.com/nekretnine/prodaja-stanova/knez-mihajlova-vrhunskih-460m2-raskosno-oprem/5425642204488?kid=1           4000000.0
+                     https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-perla-346-34m2-id5930/5425642599927?kid=1           2219888.0
+https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-perla---premium-duplex---river-view-apartm/5425642379691?kid=1           2219888.0
+                https://www.halooglasi.com/nekretnine/prodaja-stanova/senjak---sanje-zivanovica-500/5425641835648?kid=1           2200000.0
+ https://www.halooglasi.com/nekretnine/prodaja-stanova/sunny-residence---vrnjacka-banja-cela-zgrada/5425642856084?kid=1           2144000.0
+  https://www.halooglasi.com/nekretnine/prodaja-stanova/dedinje-sime-lozanica-223m2-2-parking-mesta/5425634111996?kid=1           2000000.0
+https://www.halooglasi.com/nekretnine/prodaja-stanova/luksuzna-novogradnja-kod-hrama-dva-garazna-me/5425642537109?kid=1           1850000.0
+          https://www.halooglasi.com/nekretnine/prodaja-stanova/beograd-hram-sv-save-stan-4-0-283m2/5425642323757?kid=1           1850000.0
+https://www.halooglasi.com/nekretnine/prodaja-stanova/lux-stan-sa-dva-garazna-mesta-hram-svetog-sav/5425642218643?kid=1           1772000.0
+https://www.halooglasi.com/nekretnine/prodaja-stanova/luksuzna-nekretnina-na-dedinju-smetanina-247m/5425642981846?kid=1           1750000.0
+  https://www.halooglasi.com/nekretnine/prodaja-stanova/dedinje-pink---lux-5-0-247m2-u-jednom-nivou/5425642467614?kid=1           1750000.0
+               https://www.halooglasi.com/nekretnine/prodaja-stanova/beograd-dedinje-stan-5-0-247m2/5425642763271?kid=1           1750000.0
+             https://www.halooglasi.com/nekretnine/prodaja-stanova/ugostiteljski-objekat-mladenovac/5425642973697?kid=1           1750000.0
+           https://www.halooglasi.com/nekretnine/prodaja-stanova/vracar-hram-svetog-save---mutapova/5425642448919?kid=1           1550000.0
+https://www.halooglasi.com/nekretnine/prodaja-stanova/4-0-vracar-hram-sv-save-ultra-luksuzan-pentho/5425641610366?kid=1           1550000.0
+             https://www.halooglasi.com/nekretnine/prodaja-stanova/stan-od-kog-zastaje-dah-id105456/5425636667188?kid=1           1550000.0
+https://www.halooglasi.com/nekretnine/prodaja-stanova/4-0-dedinje-blizina-belog-dvora-jedinstven-ek/5425642801945?kid=1           1500000.0
+                https://www.halooglasi.com/nekretnine/prodaja-stanova/stan-na-top-lokaciji-id117132/5425641961477?kid=1           1500000.0
+                                https://www.halooglasi.com/nekretnine/prodaja-stanova/hram-mutapova/5425636095990?kid=1           1500000.0
+https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-kula-privilegija-zivota-na-obali-reke-save/5425641452197?kid=1           1479888.0
+https://www.halooglasi.com/nekretnine/prodaja-stanova/bw---st-regis-bez-provizije-za-kupce-id-13210/5425635168805?kid=1           1479888.0
+ https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-kula-beograd--stan-od-163m2-bez-provizije/5425643041090?kid=1           1479888.0
+     https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-perla-biser-beograda-207-04m2-id54471/5425642386285?kid=1           1446888.0
+      https://www.halooglasi.com/nekretnine/prodaja-stanova/ekskluzivan-5-0-stan-od-237m2-kod-hrama/5425643029450?kid=1           1422000.0
+      https://www.halooglasi.com/nekretnine/prodaja-stanova/na-izuzetnoj-lokaciji-lux-stan-id121612/5425642751369?kid=1           1422000.0
+https://www.halooglasi.com/nekretnine/prodaja-stanova/lux-penthouse-187m2krovna-terasa-140m2-3-gara/5425643198148?kid=1           1400000.0
+https://www.halooglasi.com/nekretnine/prodaja-stanova/bw---terraces-lux-prelep-pogled-na-reku-id-20/5425642948225?kid=1           1400000.0
+     https://www.halooglasi.com/nekretnine/prodaja-stanova/dedinje-lux-u-blizini-belog-dvora-540-m2/5425643176962?kid=1           1390000.0
+         https://www.halooglasi.com/nekretnine/prodaja-stanova/pivljanina-baja-dedinje-savski-venac/5425642926043?kid=1           1390000.0
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+e) prikazati rang listu prvih 100 najvećih kuća i 100 najvećih stanova po površini
+
+kuce:
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+url oglasa                                                                                                                      povrsina
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+           https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-i-poslovni-prostor-400m2-prhovo/5425641759070?kid=1          10000.0
+                  https://www.halooglasi.com/nekretnine/prodaja-kuca/kompletan-projekat-za-naselje/5425643150162?kid=1          8186.0
+        https://www.halooglasi.com/nekretnine/prodaja-kuca/vojvode-vicentija-medjuluzje-mladenovac/5425642903054?kid=1          2300.0
+                  https://www.halooglasi.com/nekretnine/prodaja-kuca/lepa-lokacija-1-24ha-id120875/5425642571592?kid=1          1669.0
+                 https://www.halooglasi.com/nekretnine/prodaja-kuca/novi-banovci-blizina-auto-puta/5425642884004?kid=1          1555.0
+                    https://www.halooglasi.com/nekretnine/prodaja-kuca/prodaja---lux-kuca-jagodina/5425642997142?kid=1          1400.0
+   https://www.halooglasi.com/nekretnine/prodaja-kuca/na-30km-od-beograda-na-ibarskom-putu-kuca-od/5425642227026?kid=1          1400.0
+      https://www.halooglasi.com/nekretnine/izdavanje-kuca/stambeno-poslovni-kompleks-zvezdara-1-332m2-1/5425643157889          1332.0
+               https://www.halooglasi.com/nekretnine/prodaja-kuca/partizanski-put-nemenikuce-sopot/5425642552754?kid=1          1300.0
+     https://www.halooglasi.com/nekretnine/prodaja-kuca/zemun-hotel-jugoslavija---kej-oslobodjenja/5425636994480?kid=1          1250.0
+                                 https://www.halooglasi.com/nekretnine/prodaja-kuca/vrnjacka-banja/5425642452107?kid=1          1218.0
+                https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-dudovica-lazarevac-1200-m2/5425636291604?kid=1          1200.0
+  https://www.halooglasi.com/nekretnine/izdavanje-kuca/palilula---visnjicka-banja---1200m2-id15771/5425643148221?kid=1          1200.0
+                        https://www.halooglasi.com/nekretnine/prodaja-kuca/kalvarija-1200m2-pr1-eg/5425641406908?kid=1          1200.0
+          https://www.halooglasi.com/nekretnine/prodaja-kuca/k1110-poslovno-stambeni-objekat-vrcin/5425642237219?kid=1          1110.0
+                       https://www.halooglasi.com/nekretnine/prodaja-kuca/zemun---kuca-sa-lokalima/5425642035476?kid=1          1067.0
+   https://www.halooglasi.com/nekretnine/prodaja-kuca/dedinje-rezidencijalna-zona-raskosna-repreze/5425643015101?kid=1          1034.0
+               https://www.halooglasi.com/nekretnine/prodaja-kuca/vila-dedinje--neverovatna-ponuda/5425642369584?kid=1          1000.0
+                 https://www.halooglasi.com/nekretnine/prodaja-kuca/obrenovac-kuca-sa-halom-1000m2/5425643178178?kid=1          1000.0
+               https://www.halooglasi.com/nekretnine/prodaja-kuca/beograd-boljevci-kuca-5-0-1000m2/5425635223578?kid=1          1000.0
+                                   https://www.halooglasi.com/nekretnine/prodaja-kuca/vila-dedinje/5425642559608?kid=4          1000.0
+                       https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-sa-placem-od-12-ari/5425642973797?kid=1          1000.0
+         https://www.halooglasi.com/nekretnine/prodaja-kuca/mladenovackih-junaka-vlaska-mladenovac/5425642589830?kid=1          1000.0
+          https://www.halooglasi.com/nekretnine/prodaja-kuca/serdar-jola-12a-sa-novom-kucom-1000m2/5425641809444?kid=1          1000.0
+                           https://www.halooglasi.com/nekretnine/prodaja-kuca/beograd-grocka-bolec/5425642940963?kid=1          1000.0
+  https://www.halooglasi.com/nekretnine/prodaja-kuca/sremska-kamenica-luksuzna-vila-bazen-id-19786/5425642840979?kid=1           988.0
+       https://www.halooglasi.com/nekretnine/prodaja-kuca/ekskluzivna-lux-vila-sa-bazenom-novi-sad/5425642856142?kid=1           988.0
+     https://www.halooglasi.com/nekretnine/prodaja-kuca/lux-vila-za-prodaju-novi-sad-988-m2-id1639/5425642882570?kid=1           988.0
+     https://www.halooglasi.com/nekretnine/prodaja-kuca/lux-vila-u-najlepsem-delu-sremske-kamenice/5425642350381?kid=1           982.0
+             https://www.halooglasi.com/nekretnine/izdavanje-kuca/kuca---vila-rezidencijalnog-tipa/5425643080921?kid=1           980.0
+             https://www.halooglasi.com/nekretnine/prodaja-kuca/krnjaca-poslovno-stambeni-kompleks/5425643216188?kid=1           980.0
+  https://www.halooglasi.com/nekretnine/prodaja-kuca/arandjelovac-kuca-980-m2-plac-1ha-bazen-id123/5425643109587?kid=1           980.0
+                 https://www.halooglasi.com/nekretnine/prodaja-kuca/beograd-dedinje-kuca-7-0-980m2/5425641927277?kid=1           980.0
+  https://www.halooglasi.com/nekretnine/prodaja-kuca/arandjelovac-kuca-980-m2-plac-1ha-bazen-id123/5425643109587?kid=3           980.0
+             https://www.halooglasi.com/nekretnine/izdavanje-kuca/kuca---vila-rezidencijalnog-tipa/5425643080921?kid=3           980.0
+                                     https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-avala/5425636113788?kid=1           980.0
+              https://www.halooglasi.com/nekretnine/izdavanje-kuca/beogradska-veliko-selo-palilula/5425642568018?kid=1           950.0
+                    https://www.halooglasi.com/nekretnine/prodaja-kuca/lipovica---brdjanska-id1304/5425642586042?kid=1           900.0
+              https://www.halooglasi.com/nekretnine/prodaja-kuca/batajnica-vila-900m2-7-3ara-placa/5425642196592?kid=1           900.0
+     https://www.halooglasi.com/nekretnine/izdavanje-kuca/zemun-dr-nedeljka-ercegovca-odlicna-kuca/5425641898688?kid=1           900.0
+                      https://www.halooglasi.com/nekretnine/prodaja-kuca/vracar-krunska-vila-900m2/5425625780230?kid=1           900.0
+            https://www.halooglasi.com/nekretnine/izdavanje-kuca/izdavanje-kuce-vracar-sumatovacka/5425643061140?kid=1           900.0
+                   https://www.halooglasi.com/nekretnine/prodaja-kuca/jajinci-vila-900m2-na-28-ari/5425642532954?kid=1           900.0
+                     https://www.halooglasi.com/nekretnine/prodaja-kuca/eksluzivna-kuca-na-dedinju/5425643137254?kid=1           900.0
+                  https://www.halooglasi.com/nekretnine/izdavanje-kuca/kalvarija-900m2-5-ari-eggas/5425636701687?kid=1           900.0
+https://www.halooglasi.com/nekretnine/izdavanje-kuca/dr-nedeljka-ercegovca-kalvarija-zemun-beograd/5425642118727?kid=1           900.0
+                           https://www.halooglasi.com/nekretnine/prodaja-kuca/jajinci-torlacki-vis/5425642653635?kid=1           890.0
+  https://www.halooglasi.com/nekretnine/prodaja-kuca/luksuzna-vanserijska-kuca-na-15ari-placa-id89/5425634603279?kid=1           850.0
+   https://www.halooglasi.com/nekretnine/prodaja-kuca/torlak-noviji-poslovni-objekat-u-radu-850-na/5425642950713?kid=1           850.0
+         https://www.halooglasi.com/nekretnine/izdavanje-kuca/ekskluzivna-luksuzna-kuca-na-dedinju/5425643234845?kid=1           850.0
+          https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca---visenamenska-batajnica---850m2/5425643168740?kid=1           850.0
+                           https://www.halooglasi.com/nekretnine/prodaja-kuca/visenamenski-objekat/5425636846346?kid=1           850.0
+      https://www.halooglasi.com/nekretnine/prodaja-kuca/predstavljamo-vam-ovu-lux-vilu-na-dedinju/5425642589888?kid=1           850.0
+                   https://www.halooglasi.com/nekretnine/prodaja-kuca/savski-venac-dedinje---850m2/5425641412588?kid=1           850.0
+                        https://www.halooglasi.com/nekretnine/izdavanje-kuca/kumodraz-850m2-pr-gas/5425642049981?kid=1           850.0
+             https://www.halooglasi.com/nekretnine/prodaja-kuca/maksima-brankovica-batajnica-zemun/5425642602186?kid=1           850.0
+        https://www.halooglasi.com/nekretnine/izdavanje-kuca/kuca-za-izdavanje-vojvode-stepe-850m2/5425642064648?kid=1           850.0
+    https://www.halooglasi.com/nekretnine/prodaja-kuca/prodaja-kuca-maksima-brankovica-850m2-id391/5425642798159?kid=1           850.0
+  https://www.halooglasi.com/nekretnine/prodaja-kuca/vracar-krunski-venac-lux-6-parking-mesta-id-7/5425642772949?kid=1           850.0
+           https://www.halooglasi.com/nekretnine/prodaja-kuca/ekskluzivna-luksuzna-kuca-na-dedinju/5425643231014?kid=4           850.0
+             https://www.halooglasi.com/nekretnine/prodaja-kuca/prelepa-kuca-u-barajevu-67ari-plac/5425642009060?kid=1           849.0
+  https://www.halooglasi.com/nekretnine/prodaja-kuca/glumcevo-brdo-kuca-711m2-i-dvoriste-67a-id-17/5425641948485?kid=1           849.0
+                      https://www.halooglasi.com/nekretnine/prodaja-kuca/stambeno-poslovni-objekat/5425641969319?kid=3           847.0
+   https://www.halooglasi.com/nekretnine/prodaja-kuca/krnjaca-igora-vasiljeva-4x210m2-id-779-id779/5425642677722?kid=1           840.0
+       https://www.halooglasi.com/nekretnine/prodaja-kuca/stambeno-poslovni-prostor-u-novoj-pazovi/5425642468674?kid=1           840.0
+     https://www.halooglasi.com/nekretnine/prodaja-kuca/kucafabrika-za-sampinjone-lisovic-barajevo/5425642445645?kid=1           835.0
+  https://www.halooglasi.com/nekretnine/prodaja-kuca/na-prodaju-kuca-i-vikendica-sa-dva-lokala-sic/5425636982275?kid=1           831.0
+           https://www.halooglasi.com/nekretnine/prodaja-kuca/savski-venac-senjak---drinicka-830m2/5425643108733?kid=1           830.0
+                           https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca---senjak-id2438/5425636352131?kid=1           830.0
+                                 https://www.halooglasi.com/nekretnine/prodaja-kuca/mala-mostanica/5425642757026?kid=1           800.0
+   https://www.halooglasi.com/nekretnine/izdavanje-kuca/dedinje-tolstojeva-kuca-u-sivoj-fazi-800m2/5425642239297?kid=1           800.0
+   https://www.halooglasi.com/nekretnine/prodaja-kuca/poslovno-stambeni-objekat-800m2-petrovaradin/5425642434016?kid=1           800.0
+                        https://www.halooglasi.com/nekretnine/izdavanje-kuca/stari-grad-kalemegdan/5425635131537?kid=1           800.0
+https://www.halooglasi.com/nekretnine/izdavanje-kuca/dedinje-atraktivna-kuca-rezidencijalna-zona-8/5425635964754?kid=1           800.0
+https://www.halooglasi.com/nekretnine/izdavanje-kuca/izdaje-se-kompletno-namestena-luksuzna-vila-n/5425642324335?kid=1           800.0
+    https://www.halooglasi.com/nekretnine/prodaja-kuca/veliki-mokri-lug-stari-vinogradi-kuca-790m2/5425642473162?kid=1           790.0
+                        https://www.halooglasi.com/nekretnine/prodaja-kuca/vila-u-centru-zlatibora/5425642232062?kid=3           790.0
+         https://www.halooglasi.com/nekretnine/prodaja-kuca/prodaje-se-kuca-777kv-8a-plac-2-garaze/5425642590606?kid=1           777.0
+  https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-sa-bazenom-8a-placa-poslovni-prostor-100/5425634791630?kid=1           775.0
+    https://www.halooglasi.com/nekretnine/prodaja-kuca/uknjizen-stambeno-poslovni-objekat-id116904/5425643062863?kid=1           770.0
+                          https://www.halooglasi.com/nekretnine/prodaja-kuca/glumcevo-brdo-vucinac/5425634412794?kid=1           770.0
+  https://www.halooglasi.com/nekretnine/prodaja-kuca/velika-mostanica-kuca-150m2-sa-halom-na-placu/5425642391464?kid=1           750.0
+   https://www.halooglasi.com/nekretnine/izdavanje-kuca/luksuzno-opremljena-kuca-na-dedinju-id3050/5425642799966?kid=1           750.0
+                 https://www.halooglasi.com/nekretnine/prodaja-kuca/valjevo-okolina-kuca-5-0-750m2/5425642118898?kid=1           750.0
+  https://www.halooglasi.com/nekretnine/prodaja-kuca/cvetanova-cuprija-objekat-sa-13-stambenih-jed/5425642488578?kid=1           749.0
+                    https://www.halooglasi.com/nekretnine/prodaja-kuca/lestane-747m2-plac-17-6-ari/5425642345470?kid=1           747.0
+                           https://www.halooglasi.com/nekretnine/prodaja-kuca/surcin-djure-crljena/5425642587613?kid=1           744.0
+  https://www.halooglasi.com/nekretnine/prodaja-kuca/kanarevo-brdo-rakovicka-740m2-na-3-74-ari-pla/5425641553537?kid=1           740.0
+                    https://www.halooglasi.com/nekretnine/prodaja-kuca/rakovica-740m2-prodaja-kuce/5425642647666?kid=1           740.0
+                   https://www.halooglasi.com/nekretnine/prodaja-kuca/lux-vila-u-sremskoj-kamenici/5425643110868?kid=1           738.0
+  https://www.halooglasi.com/nekretnine/prodaja-kuca/sremska-kamenica-bocke---uknjizena-kuca-id300/5425642847981?kid=1           720.0
+  https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-716-m2-lift-parking-milovana-marinkovica/5425642242628?kid=1           716.0
+  https://www.halooglasi.com/nekretnine/prodaja-kuca/dedinje-diplomatska-kolonija-lux-kuca-sa-baze/5425642675544?kid=1           712.0
+https://www.halooglasi.com/nekretnine/izdavanje-kuca/dedinje-diplomatska-kolonija-lux-kuca-sa-baze/5425642675723?kid=1           712.0
+      https://www.halooglasi.com/nekretnine/prodaja-kuca/barajevo---glumcevo-brdo---vucinac-id1154/5425642484787?kid=1           711.0
+         https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-700m2-na-cukarici-izvorska-id1457/5425642349233?kid=1           700.0
+                         https://www.halooglasi.com/nekretnine/prodaja-kuca/lux-kuca-na-dedinju-id122686/5425643216335           700.0
+  https://www.halooglasi.com/nekretnine/prodaja-kuca/lux-kuca-sa-potencijalom-za-razne-namene-id11/5425642318267?kid=1           700.0
+                        https://www.halooglasi.com/nekretnine/prodaja-kuca/brankova-djurinci-sopot/5425642624343?kid=1           700.0
+  https://www.halooglasi.com/nekretnine/prodaja-kuca/golf-naselje-lux-spratna-kuca-sa-bazenom-id18/5425642022171?kid=1           700.0
+
+
+stanovi:
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+url oglasa                                                                                                                      povrsina
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd-dvosoban-stan-45m2-namesten-usel/5425643140261?kid=1                  55441.00
+               https://www.halooglasi.com/nekretnine/prodaja-stanova/ugostiteljski-objekat-mladenovac/5425642973697?kid=1                   3000.00
+                       https://www.halooglasi.com/nekretnine/izdavanje-stanova/stan-sa-dve-prostorije/5425643208786?kid=1                   1534.00
+   https://www.halooglasi.com/nekretnine/prodaja-stanova/sunny-residence---vrnjacka-banja-cela-zgrada/5425642856084?kid=1                   1390.00
+   https://www.halooglasi.com/nekretnine/izdavanje-stanova/kalemegdan-novija-gradnja-useljiv-3-0-stan/5425643161051?kid=1                   1100.00
+     https://www.halooglasi.com/nekretnine/izdavanje-stanova/poslovni-prostor-u-knez-mihailova-id1890/5425643034654?kid=1                    960.00
+                     https://www.halooglasi.com/nekretnine/prodaja-stanova/dunavska-14-retko-u-ponudi/5425641941174?kid=4                    700.00
+                     https://www.halooglasi.com/nekretnine/prodaja-stanova/dunavska-14-retko-u-ponudi/5425641941174?kid=1                    700.00
+               https://www.halooglasi.com/nekretnine/izdavanje-stanova/siri-centar---vozdovac-id52010/5425642911945?kid=1                    600.00
+       https://www.halooglasi.com/nekretnine/prodaja-stanova/4-stana4-garaze2-pp-tavan-150m2-uknjizen/5425642365131?kid=1                    556.00
+               https://www.halooglasi.com/nekretnine/izdavanje-stanova/siri-centar---vozdovac-id52188/5425642950871?kid=1                    550.00
+       https://www.halooglasi.com/nekretnine/prodaja-stanova/dedinje-lux-u-blizini-belog-dvora-540-m2/5425643176962?kid=1                    540.00
+           https://www.halooglasi.com/nekretnine/prodaja-stanova/pivljanina-baja-dedinje-savski-venac/5425642926043?kid=1                    540.00
+  https://www.halooglasi.com/nekretnine/prodaja-stanova/brankova-brankova-savski-venac-beograd-srbija/5425642116461?kid=1                    500.00
+                  https://www.halooglasi.com/nekretnine/prodaja-stanova/senjak---sanje-zivanovica-500/5425641835648?kid=1                    500.00
+https://www.halooglasi.com/nekretnine/izdavanje-stanova/11-krajiske-divizije-petlovo-brdo-rakovica-be/5425642987833?kid=1                    480.00
+  https://www.halooglasi.com/nekretnine/prodaja-stanova/knez-mihajlova-vrhunskih-460m2-raskosno-oprem/5425642204488?kid=1                    460.00
+         https://www.halooglasi.com/nekretnine/izdavanje-stanova/dedinje-augusta-cesarca-430m2-id4121/5425642572419?kid=1                    430.00
+  https://www.halooglasi.com/nekretnine/prodaja-stanova/salonski-stan-i-pp-u-centru-panceva---jedinst/5425642203668?kid=1                    417.00
+                 https://www.halooglasi.com/nekretnine/prodaja-stanova/vracar-nov-lux-penthouse-415m2/5425642614378?kid=1                    415.00
+                                  https://www.halooglasi.com/nekretnine/prodaja-stanova/hram-mutapova/5425636095990?kid=1                    405.00
+               https://www.halooglasi.com/nekretnine/prodaja-stanova/stan-od-kog-zastaje-dah-id105456/5425636667188?kid=1                    405.00
+  https://www.halooglasi.com/nekretnine/prodaja-stanova/4-0-vracar-hram-sv-save-ultra-luksuzan-pentho/5425641610366?kid=1                    405.00
+                        https://www.halooglasi.com/nekretnine/izdavanje-stanova/luksuzna-kuca-dedinje/5425642940666?kid=1                    400.00
+  https://www.halooglasi.com/nekretnine/prodaja-stanova/neobicna-izuzetna-kuca-stan-kalemegdan-gracan/5425641817634?kid=1                    400.00
+       https://www.halooglasi.com/nekretnine/prodaja-stanova/centar-kraljice-natalije-400m2-id2894111/5425641904844?kid=1                    400.00
+       https://www.halooglasi.com/nekretnine/prodaja-stanova/prodaja-lux-stana-dedinje-retko-u-ponudi/5425636655987?kid=1                    400.00
+   https://www.halooglasi.com/nekretnine/prodaja-stanova/5-0-centar-neposredna-blizina-knez-mihajlove/5425643015134?kid=1                    400.00
+https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-sad-bulevar-oslobodjenja---luksuzno-opre/5425642890427?kid=1                    397.00
+                   https://www.halooglasi.com/nekretnine/prodaja-stanova/dedinje-380m2-iii-cggas-uknj/5425634927615?kid=1                    380.00
+               https://www.halooglasi.com/nekretnine/prodaja-stanova/vozdovac-fon---mite-cenica-375m2/5425642417874?kid=1                    375.00
+  https://www.halooglasi.com/nekretnine/prodaja-stanova/savski-venac-dedinje---diane-budisavljevic-36/5425636127740?kid=1                    369.00
+         https://www.halooglasi.com/nekretnine/prodaja-stanova/stan-za-prodaju-dedinje-369-m2-id-1657/5425642912772?kid=1                    369.00
+           https://www.halooglasi.com/nekretnine/izdavanje-stanova/beograd-lekino-brdo-stan-5-0-366m2/5425643079865?kid=1                    366.00
+  https://www.halooglasi.com/nekretnine/prodaja-stanova/stari-grad-narodno-pozoriste--dositejeva-360m/5425642306023?kid=1                    360.00
+            https://www.halooglasi.com/nekretnine/izdavanje-stanova/lux-5-0-stan-na-odlicnoj-lokaciji/5425642365269?kid=1                    360.00
+https://www.halooglasi.com/nekretnine/izdavanje-stanova/lekino-brdo-lux-novogradnja-tripleks-id-20319/5425643124871?kid=1                    360.00
+https://www.halooglasi.com/nekretnine/izdavanje-stanova/de-lux-poslovni-apartman-na-tri-nivoa-odmah-i/5425643061686?kid=1                    360.00
+  https://www.halooglasi.com/nekretnine/prodaja-stanova/novi-beograd-vladim-popovica-blok-19a-penthou/5425642932306?kid=1                    353.00
+https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd-vladim-popovica-blok-19a-penthou/5425643099149?kid=1                    353.00
+      https://www.halooglasi.com/nekretnine/prodaja-stanova/retko-u-ponudi-stan-sa-spa-sobom-id-16491/5425636844012?kid=1                    350.00
+                       https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-perla-346-34m2-id5930/5425642599927?kid=1                    346.34
+  https://www.halooglasi.com/nekretnine/prodaja-stanova/bw-perla---premium-duplex---river-view-apartm/5425642379691?kid=1                    346.00
+  https://www.halooglasi.com/nekretnine/prodaja-stanova/sprat-i-potkrovlje-kuce-u-suvom-dolu-340-m2-s/5425642843308?kid=1                    340.00
+https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd-park-apartman-luksuzan-4-0-id-45/5425642488330?kid=1                    340.00
+  https://www.halooglasi.com/nekretnine/prodaja-stanova/vracar-centar-lux-sa-spa-zonom-i-garazom-id16/5425642568154?kid=1                    340.00
+  https://www.halooglasi.com/nekretnine/prodaja-stanova/drugacij-nivo-stanovanja-stan-sa-spa-i-bazeno/5425642556850?kid=1                    339.00
+     https://www.halooglasi.com/nekretnine/prodaja-stanova/penthouse-na-dedinju-majora-jagodica-337m2/5425641996394?kid=1                    337.00
+          https://www.halooglasi.com/nekretnine/prodaja-stanova/kuca-na-prodaju-plavi-horizonti-zemun/5425637435963?kid=1                    330.00
+           https://www.halooglasi.com/nekretnine/prodaja-stanova/crveni-krst-penthaus-330m2-v-t-pumpa/5425642893186?kid=1                    330.00
+         https://www.halooglasi.com/nekretnine/izdavanje-stanova/vrcin-sjajna-nekretnina-za-izdavanje/5425642734373?kid=1                    321.00
+  https://www.halooglasi.com/nekretnine/prodaja-stanova/prodaje-se-prelepa-prostrana-kuca-novo-naselj/5425642733266?kid=1                    310.00
+                      https://www.halooglasi.com/nekretnine/prodaja-stanova/batajnica-despota-ivanisa/5425633289027?kid=1                    306.00
+  https://www.halooglasi.com/nekretnine/prodaja-stanova/luks-penthaus-sa-2-garazna-mesta-vidikovac-30/5425643113162?kid=1                    300.00
+        https://www.halooglasi.com/nekretnine/prodaja-stanova/prodaje-se-kuca-sa-tri-zasebne-jedinice/5425642733659?kid=1                    300.00
+  https://www.halooglasi.com/nekretnine/prodaja-stanova/prodaje-se-sestosoban-stan-senjacka-300m2-luk/5425642007535?kid=1                    300.00
+    https://www.halooglasi.com/nekretnine/prodaja-stanova/izdvajamo-iz-ponude-lokal-u-centru-kod-suda/5425642798232?kid=1                    300.00
+  https://www.halooglasi.com/nekretnine/prodaja-stanova/vidikovac-kod-tc-i-mcdonalds-300m2-vii-gas-lu/5425643034626?kid=1                    300.00
+https://www.halooglasi.com/nekretnine/izdavanje-stanova/dedinje-diplomatska-kolonija-stan-duplex-300m/5425643017908?kid=1                    300.00
+   https://www.halooglasi.com/nekretnine/izdavanje-stanova/predivan-salonski-stan-na-obilicevom-vencu/5425642900860?kid=1                    300.00
+    https://www.halooglasi.com/nekretnine/prodaja-stanova/dedinje-luks-stan-u-2-nivoa-3-terase-pogled/5425641910345?kid=1                    300.00
+  https://www.halooglasi.com/nekretnine/prodaja-stanova/lux-penthaus-sa-bazenom-na-krovnoj-terasi-zel/5425643196584?kid=1                    296.12
+                  https://www.halooglasi.com/nekretnine/prodaja-stanova/cerak-vinogradi-296m2-vii-gas/5425643058140?kid=1                    296.00
+                                 https://www.halooglasi.com/nekretnine/prodaja-stanova/pancevo-centar/5425642053994?kid=1                    295.00
+                        https://www.halooglasi.com/nekretnine/prodaja-stanova/golf---lux---nov-id3633/5425642847418?kid=1                    294.00
+  https://www.halooglasi.com/nekretnine/prodaja-stanova/janka-veselinovica-centar-vracar-beograd-srbi/5425642118410?kid=1                    291.00
+                 https://www.halooglasi.com/nekretnine/prodaja-stanova/fantastican-dupleks-na-vracaru/5425641914133?kid=1                    291.00
+               https://www.halooglasi.com/nekretnine/prodaja-stanova/unique-luxury-penthouse-jagodina/5425643186672?kid=1                    290.00
+   https://www.halooglasi.com/nekretnine/prodaja-stanova/baja-pivljanina-dedinje-savski-venac-beograd/5425642116442?kid=1                    285.00
+            https://www.halooglasi.com/nekretnine/prodaja-stanova/beograd-hram-sv-save-stan-4-0-283m2/5425642323757?kid=1                    283.00
+  https://www.halooglasi.com/nekretnine/prodaja-stanova/duplex-penthaus-patrijarha-varnave-283m22pm-i/5425643074504?kid=1                    283.00
+  https://www.halooglasi.com/nekretnine/prodaja-stanova/hram-patrijarha-varnave-283m2-2-parking-mesta/5425643149325?kid=1                    283.00
+https://www.halooglasi.com/nekretnine/izdavanje-stanova/centar-9-0-2-parking-mesta-obilicev-venac-id1/5425642978081?kid=1                    283.00
+  https://www.halooglasi.com/nekretnine/prodaja-stanova/luksuzna-novogradnja-kod-hrama-dva-garazna-me/5425642537109?kid=1                    283.00
+    https://www.halooglasi.com/nekretnine/izdavanje-stanova/ekskluzivan-stan-na-vracaru-5-0-penthouse/5425636489491?kid=1                    279.00
+        https://www.halooglasi.com/nekretnine/izdavanje-stanova/izdaje-se-lux-4-0-277kv-duplex-garaza/5425642779586?kid=1                    277.00
+    https://www.halooglasi.com/nekretnine/prodaja-stanova/vozdovac-beograd-vojvode-stepe-stan-4-272m2/5425634501683?kid=1                    272.00
+              https://www.halooglasi.com/nekretnine/prodaja-stanova/hadzi-melentijeva-271m2-penthouse/5425635325338?kid=1                    271.00
+                 https://www.halooglasi.com/nekretnine/prodaja-stanova/lux-penthaus-u-bulevaru-id1193/5425642221660?kid=1                    270.00
+  https://www.halooglasi.com/nekretnine/prodaja-stanova/vidikovac-generalica-4-etaze---retko-u-ponudi/5425642900438?kid=1                    270.00
+  https://www.halooglasi.com/nekretnine/prodaja-stanova/prodaje-se-lux-6-0-270kv120kv-uknjizeno-2gara/5425642452374?kid=1                    270.00
+   https://www.halooglasi.com/nekretnine/prodaja-stanova/vracar-hram-sv-save-internacionalnih-brigada/5425642566656?kid=1                    263.00
+       https://www.halooglasi.com/nekretnine/prodaja-stanova/hram-internacionalnih-brigada-5-0-263-m2/5425635599695?kid=1                    263.00
+                               https://www.halooglasi.com/nekretnine/prodaja-stanova/hram-branicevska/5425634322281?kid=1                    262.00
+       https://www.halooglasi.com/nekretnine/izdavanje-stanova/beograd-hram-sv-save-stan-4-0-261-16m2/5425642323759?kid=1                    261.16
+  https://www.halooglasi.com/nekretnine/prodaja-stanova/lux-stan-sa-dva-garazna-mesta-hram-svetog-sav/5425642218643?kid=1                    261.00
+             https://www.halooglasi.com/nekretnine/izdavanje-stanova/magnificent-apartment-on-dedinje/5425636658682?kid=1                    260.00
+                https://www.halooglasi.com/nekretnine/prodaja-stanova/prodaja-stana-dedinje-lux-260m2/5425642379164?kid=1                    260.00
+                  https://www.halooglasi.com/nekretnine/prodaja-stanova/skadarlija-gospodar-jevremova/5425635405115?kid=1                    260.00
+                 https://www.halooglasi.com/nekretnine/prodaja-stanova/dedinje-ultra-lux-nov-id-15879/5425636602676?kid=1                    260.00
+                        https://www.halooglasi.com/nekretnine/prodaja-stanova/novija-gradnja-id118051/5425642138102?kid=1                    260.00
+           https://www.halooglasi.com/nekretnine/prodaja-stanova/dedinje-al-bacvanskog-dupleks-260-m2/5425642245760?kid=1                    260.00
+  https://www.halooglasi.com/nekretnine/izdavanje-stanova/duplex-za-izdavanje-na-top-lokaciji-id28405/5425642034401?kid=1                    260.00
+            https://www.halooglasi.com/nekretnine/prodaja-stanova/stan-bezanijska-zemun-centar-258-m2/5425642319082?kid=1                    258.00
+                    https://www.halooglasi.com/nekretnine/prodaja-stanova/lux-duplex-u-a-bloku-id1252/5425642380516?kid=1                    257.00
+             https://www.halooglasi.com/nekretnine/prodaja-stanova/ekskluzivna-ponuda-lidera-id119255/5425642324339?kid=1                    257.00
+                            https://www.halooglasi.com/nekretnine/prodaja-stanova/a-blok-257m2-id1284/5425642866594?kid=1                    257.00
+            https://www.halooglasi.com/nekretnine/prodaja-stanova/novi-beograd-a-blok-jurija-gagarina/5425642741583?kid=1                    257.00
+  https://www.halooglasi.com/nekretnine/prodaja-stanova/centar-draze-pavlovica---dupleks-sa-dvoristem/5425643104763?kid=1                    257.00
+       https://www.halooglasi.com/nekretnine/prodaja-stanova/a-blok---lux-penthouse---3-garazna-mesta/5425642383621?kid=1                    257.00
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+f)
+- sajt halooglasi.com ne prikazuje godinu izgradnje nekretnine, tako da je uzeto u obzir
+da li je nekretnina novogradnja
+- rang liste nalaze se u fajlovima unutar ovog direktorijuma, sa imenima:
+'novogradnja_rang_list_po_ceni_iznajmljivanja.txt' i 'novogradnja_rang_lista_po_ceni_prodaje.txt'
+
+g)
+
+- top 30 nekretnina sa najvise soba
+
+1. kuce
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                                        url oglasa                       broj soba
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                https://www.halooglasi.com/nekretnine/prodaja-kuca/beograd-ledine-kuca-7-0-250m2/5425635155852?kid=1                      5.0
+https://www.halooglasi.com/nekretnine/prodaja-kuca/vinogradska-ledine-novi-beograd-beograd-srbij/5425642403769?kid=1                      5.0
+       https://www.halooglasi.com/nekretnine/prodaja-kuca/ljubomira-ivkovica---suce-ducina-sopot/5425642593047?kid=1                      5.0
+                  https://www.halooglasi.com/nekretnine/prodaja-kuca/vidikovac-vidikovacki-venac/5425642025996?kid=1                      5.0
+                        https://www.halooglasi.com/nekretnine/prodaja-kuca/borca-kninskog-kosova/5425642219291?kid=1                      5.0
+                            https://www.halooglasi.com/nekretnine/prodaja-kuca/zemun-ugrinovacka/5425642295319?kid=1                      5.0
+https://www.halooglasi.com/nekretnine/prodaja-kuca/visnjica-kuca-novije-gradnje-sa-pogledom-na-d/5425642886097?kid=1                      5.0
+        https://www.halooglasi.com/nekretnine/prodaja-kuca/uknjizena-kuca-u-borci-330m2-na-6-ari/5425642246935?kid=1                      5.0
+https://www.halooglasi.com/nekretnine/prodaja-kuca/avala-beli-potok-kuca-10a-kod-poste-i-d-zdrav/5425642947943?kid=1                      5.0
+  https://www.halooglasi.com/nekretnine/prodaja-kuca/miljakovac-iii---branivoja-jovanovica-brane/5425641635845?kid=1                      5.0
+   https://www.halooglasi.com/nekretnine/prodaja-kuca/kvalitetna-kuca-na-banjici---bez-provizije/5425635581890?kid=1                      5.0
+                         https://www.halooglasi.com/nekretnine/prodaja-kuca/lux-vila-na-zvezdari/5425642845915?kid=1                      5.0
+ https://www.halooglasi.com/nekretnine/prodaja-kuca/beograd-konatice-kuca-vikendica-110m2-2x40m2/5425643146947?kid=1                      5.0
+      https://www.halooglasi.com/nekretnine/prodaja-kuca/milovana-niciforovica-zeleznik-cukarica/5425642598157?kid=1                      5.0
+https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-plac-3-11ari-vracar-neimar-intern-brigad/5425635865516?kid=1                      5.0
+          https://www.halooglasi.com/nekretnine/prodaja-kuca/hitno-na-prodaju-2-kuce-u-kumodrazu/5425642361203?kid=1                      5.0
+      https://www.halooglasi.com/nekretnine/prodaja-kuca/beograd-veliki-mokri-lug-kuca-5-0-155m2/5425635694311?kid=1                      5.0
+      https://www.halooglasi.com/nekretnine/prodaja-kuca/vozdovac-jajinci-kmeta-todorovica-307m2/5425642153469?kid=1                      5.0
+               https://www.halooglasi.com/nekretnine/prodaja-kuca/barajevo-lisovic-kuca-293-42m2/5425642886906?kid=1                      5.0
+       https://www.halooglasi.com/nekretnine/prodaja-kuca/mladenovackih-junaka-vlaska-mladenovac/5425642589830?kid=1                      5.0
+         https://www.halooglasi.com/nekretnine/prodaja-kuca/zemun-dusana-vukasovica-250m2-id6381/5425642793019?kid=1                      5.0
+  https://www.halooglasi.com/nekretnine/prodaja-kuca/stambeno-poslovni-objekat-na-placu-od-7-ari/5425642127703?kid=1                      5.0
+            https://www.halooglasi.com/nekretnine/prodaja-kuca/barajevo---savremeno-seosko-domacinstvo/5425643215989                      5.0
+https://www.halooglasi.com/nekretnine/prodaja-kuca/prodajem-kucu-u-visnjickoj-banji-2-u-beogradu/5425634106596?kid=1                      5.0
+             https://www.halooglasi.com/nekretnine/prodaja-kuca/prodaja-kuce-u-visnjicka-banja-2/5425634559296?kid=1                      5.0
+                 https://www.halooglasi.com/nekretnine/prodaja-kuca/vracar-milesevska-kuca-600m2/5425642976950?kid=1                      5.0
+https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-196m220m266m2-na-14-ari-sremcica---skols/5425641929165?kid=1                      5.0
+                                   https://www.halooglasi.com/nekretnine/prodaja-kuca/kotez-kuca/5425641980534?kid=1                      5.0
+  https://www.halooglasi.com/nekretnine/prodaja-kuca/beograd-zvezdara-kluz-budmanijeva-id-521-id/5425643222234?kid=1                      5.0
+https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-sa-bazenom-na-mirnoj-lokaciji-starog-kos/5425643217750?kid=1                      5.0
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2. stanovi
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                                            url oglasa                         broj soba
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                     https://www.halooglasi.com/nekretnine/prodaja-stanova/zvezdara-lion---gvozdiceva/5425641970168?kid=1                      5.0
+https://www.halooglasi.com/nekretnine/izdavanje-stanova/slobodana-principa-selje-banovo-brdo-cukarica/5425642592029?kid=1                      5.0
+   https://www.halooglasi.com/nekretnine/prodaja-stanova/baja-pivljanina-dedinje-savski-venac-beograd/5425642116442?kid=1                      5.0
+                           https://www.halooglasi.com/nekretnine/prodaja-stanova/kluz-voje-veljkovica/5425635636815?kid=1                      5.0
+               https://www.halooglasi.com/nekretnine/izdavanje-stanova/prostran-stan-blizu-kosutnjaka/5425642975977?kid=1                      5.0
+               https://www.halooglasi.com/nekretnine/prodaja-stanova/kronstatska-dedinje-savski-venac/5425643146891?kid=1                      5.0
+  https://www.halooglasi.com/nekretnine/prodaja-stanova/ekskluzivan-lux-krovna-terasa-kosutnjak-parki/5425642955294?kid=1                      5.0
+                 https://www.halooglasi.com/nekretnine/izdavanje-stanova/stari-grad-palmoticeva-120m2/5425643137801?kid=1                      5.0
+  https://www.halooglasi.com/nekretnine/prodaja-stanova/dupleks-salonskog-tipa-gospodara-vucica-156m2/5425642679557?kid=1                      5.0
+  https://www.halooglasi.com/nekretnine/prodaja-stanova/lux-penthaus-tuniska-142m2-154m2-terasa-id424/5425642617066?kid=1                      5.0
+    https://www.halooglasi.com/nekretnine/izdavanje-stanova/petosoban-dupleks-sa-garazom-vracar-200m2/5425643184147?kid=1                      5.0
+  https://www.halooglasi.com/nekretnine/prodaja-stanova/arena-bul-arsenija-carnojevica-166m2-mereno-2/5425642036653?kid=1                      5.0
+                     https://www.halooglasi.com/nekretnine/prodaja-stanova/terazije-180m2-iii-eg-uknj/5425641532125?kid=1                      5.0
+                  https://www.halooglasi.com/nekretnine/prodaja-stanova/stari-grad-terazije-115m2-t35/5425635486737?kid=1                      5.0
+  https://www.halooglasi.com/nekretnine/prodaja-stanova/zvezdara-mirijevo-iv-ljubise-miodragovica-94m/5425642995419?kid=1                      5.0
+     https://www.halooglasi.com/nekretnine/prodaja-stanova/penthouse-na-dedinju-majora-jagodica-337m2/5425641996394?kid=1                      5.0
+             https://www.halooglasi.com/nekretnine/izdavanje-stanova/savski-venac-kneza-milosa-id4844/5425642887343?kid=1                      5.0
+  https://www.halooglasi.com/nekretnine/prodaja-stanova/banovo-brdo-orfelinova-160m2-mereno-170m2-id3/5425642419085?kid=1                      5.0
+    https://www.halooglasi.com/nekretnine/prodaja-stanova/palilula-tasmajdan---ilije-garasanina-120m2/5425642324343?kid=1                      5.0
+   https://www.halooglasi.com/nekretnine/izdavanje-stanova/kalenic-pijaca-lux-dupleks-garaza-id-20408/5425643184349?kid=1                      5.0
+ https://www.halooglasi.com/nekretnine/izdavanje-stanova/petrovaradin-centar---polunamesten-petosoban/5425643226450?kid=1                      5.0
+          https://www.halooglasi.com/nekretnine/prodaja-stanova/rakovica---petlovo-brdo---5-0-id18250/5425643196597?kid=1                      5.0
+             https://www.halooglasi.com/nekretnine/prodaja-stanova/palilula---tasmajdan---5-0-id17716/5425642910200?kid=1                      5.0
+                https://www.halooglasi.com/nekretnine/prodaja-stanova/dupleks-penthouse-zvezdara-lion/5425642307790?kid=1                      5.0
+               https://www.halooglasi.com/nekretnine/prodaja-stanova/cukarica-zeleznik-8-marta-122-m2/5425641840396?kid=1                      5.0
+                https://www.halooglasi.com/nekretnine/izdavanje-stanova/luksuzan-petosoban-stan-u-ybc/5425642289062?kid=1                      5.0
+               https://www.halooglasi.com/nekretnine/izdavanje-stanova/siri-centar---vozdovac-id52010/5425642911945?kid=1                      5.0
+https://www.halooglasi.com/nekretnine/izdavanje-stanova/dedinje-diplomatska-kolonija-stan-duplex-300m/5425643017908?kid=1                      5.0
+             https://www.halooglasi.com/nekretnine/prodaja-stanova/pocetak-altine-hemingvejeva-id1675/5425642860814?kid=1                      5.0
+   https://www.halooglasi.com/nekretnine/prodaja-stanova/prodajemo-petosoban-stan-diplomatsko-naselje/5425636825214?kid=1                      5.0
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+- top 30 nekretnina sa najvecom kvadarturom (samo stanovi)
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                                               url oglasa                   povrsina
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-beograd-dvosoban-stan-45m2-namesten-usel/5425643140261?kid=1                   55441.0
+               https://www.halooglasi.com/nekretnine/prodaja-stanova/ugostiteljski-objekat-mladenovac/5425642973697?kid=1                    3000.0
+                       https://www.halooglasi.com/nekretnine/izdavanje-stanova/stan-sa-dve-prostorije/5425643208786?kid=1                    1534.0
+   https://www.halooglasi.com/nekretnine/prodaja-stanova/sunny-residence---vrnjacka-banja-cela-zgrada/5425642856084?kid=1                    1390.0
+   https://www.halooglasi.com/nekretnine/izdavanje-stanova/kalemegdan-novija-gradnja-useljiv-3-0-stan/5425643161051?kid=1                    1100.0
+     https://www.halooglasi.com/nekretnine/izdavanje-stanova/poslovni-prostor-u-knez-mihailova-id1890/5425643034654?kid=1                     960.0
+                     https://www.halooglasi.com/nekretnine/prodaja-stanova/dunavska-14-retko-u-ponudi/5425641941174?kid=4                     700.0
+                     https://www.halooglasi.com/nekretnine/prodaja-stanova/dunavska-14-retko-u-ponudi/5425641941174?kid=1                     700.0
+               https://www.halooglasi.com/nekretnine/izdavanje-stanova/siri-centar---vozdovac-id52010/5425642911945?kid=1                     600.0
+       https://www.halooglasi.com/nekretnine/prodaja-stanova/4-stana4-garaze2-pp-tavan-150m2-uknjizen/5425642365131?kid=1                     556.0
+               https://www.halooglasi.com/nekretnine/izdavanje-stanova/siri-centar---vozdovac-id52188/5425642950871?kid=1                     550.0
+       https://www.halooglasi.com/nekretnine/prodaja-stanova/dedinje-lux-u-blizini-belog-dvora-540-m2/5425643176962?kid=1                     540.0
+           https://www.halooglasi.com/nekretnine/prodaja-stanova/pivljanina-baja-dedinje-savski-venac/5425642926043?kid=1                     540.0
+  https://www.halooglasi.com/nekretnine/prodaja-stanova/brankova-brankova-savski-venac-beograd-srbija/5425642116461?kid=1                     500.0
+                  https://www.halooglasi.com/nekretnine/prodaja-stanova/senjak---sanje-zivanovica-500/5425641835648?kid=1                     500.0
+https://www.halooglasi.com/nekretnine/izdavanje-stanova/11-krajiske-divizije-petlovo-brdo-rakovica-be/5425642987833?kid=1                     480.0
+  https://www.halooglasi.com/nekretnine/prodaja-stanova/knez-mihajlova-vrhunskih-460m2-raskosno-oprem/5425642204488?kid=1                     460.0
+         https://www.halooglasi.com/nekretnine/izdavanje-stanova/dedinje-augusta-cesarca-430m2-id4121/5425642572419?kid=1                     430.0
+  https://www.halooglasi.com/nekretnine/prodaja-stanova/salonski-stan-i-pp-u-centru-panceva---jedinst/5425642203668?kid=1                     417.0
+                 https://www.halooglasi.com/nekretnine/prodaja-stanova/vracar-nov-lux-penthouse-415m2/5425642614378?kid=1                     415.0
+                                  https://www.halooglasi.com/nekretnine/prodaja-stanova/hram-mutapova/5425636095990?kid=1                     405.0
+               https://www.halooglasi.com/nekretnine/prodaja-stanova/stan-od-kog-zastaje-dah-id105456/5425636667188?kid=1                     405.0
+  https://www.halooglasi.com/nekretnine/prodaja-stanova/4-0-vracar-hram-sv-save-ultra-luksuzan-pentho/5425641610366?kid=1                     405.0
+                        https://www.halooglasi.com/nekretnine/izdavanje-stanova/luksuzna-kuca-dedinje/5425642940666?kid=1                     400.0
+  https://www.halooglasi.com/nekretnine/prodaja-stanova/neobicna-izuzetna-kuca-stan-kalemegdan-gracan/5425641817634?kid=1                     400.0
+       https://www.halooglasi.com/nekretnine/prodaja-stanova/centar-kraljice-natalije-400m2-id2894111/5425641904844?kid=1                     400.0
+       https://www.halooglasi.com/nekretnine/prodaja-stanova/prodaja-lux-stana-dedinje-retko-u-ponudi/5425636655987?kid=1                     400.0
+   https://www.halooglasi.com/nekretnine/prodaja-stanova/5-0-centar-neposredna-blizina-knez-mihajlove/5425643015134?kid=1                     400.0
+https://www.halooglasi.com/nekretnine/izdavanje-stanova/novi-sad-bulevar-oslobodjenja---luksuzno-opre/5425642890427?kid=1                     397.0
+                   https://www.halooglasi.com/nekretnine/prodaja-stanova/dedinje-380m2-iii-cggas-uknj/5425634927615?kid=1                     380.0
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+- top 30 nekretnina sa najvecom povrsinom zemljista (samo za kuce)
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                                              ad_url          povrsina (izrazena u m2)
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+           https://www.halooglasi.com/nekretnine/prodaja-kuca/mladenovac-americ-vikend-kuca-20m2/5425642356973?kid=1          169800.0
+   https://www.halooglasi.com/nekretnine/prodaja-kuca/lux-vila-za-prodaju-novi-sad-988-m2-id1639/5425642882570?kid=1          135000.0
+        https://www.halooglasi.com/nekretnine/prodaja-kuca/barajevo-stara-lipovica---kuca-259-m2/5425642353988?kid=1          134600.0
+         https://www.halooglasi.com/nekretnine/prodaja-kuca/lepa-vikend-kuca-sibnica-podkosmajski-kraj/5425643216290          103300.0
+              https://www.halooglasi.com/nekretnine/prodaja-kuca/ugrinovci-centar-uknjizena-kuca/5425642924376?kid=1          102600.0
+               https://www.halooglasi.com/nekretnine/prodaja-kuca/ripanj-lipovacki-put-kuca-58m2/5425642977340?kid=1          102200.0
+              https://www.halooglasi.com/nekretnine/prodaja-kuca/stara-pazova-odlicna-kuca-243m2/5425642155638?kid=1           51400.0
+                https://www.halooglasi.com/nekretnine/prodaja-kuca/prodaja-kuce-marka-oreskovica/5425449274500?kid=1           36000.0
+ https://www.halooglasi.com/nekretnine/prodaja-kuca/retko-u-ponudi-prodaja-kuce-cerak-jablanicka/5425449274713?kid=1           30000.0
+   https://www.halooglasi.com/nekretnine/prodaja-kuca/nova-kuca-46m2-2-2-ha-njive-beograd-vranic/5425643027310?kid=1           22000.0
+        https://www.halooglasi.com/nekretnine/prodaja-kuca/beograd-barajevo-mesto-kuca-5-0-433m2/5425642017265?kid=1           14000.0
+https://www.halooglasi.com/nekretnine/prodaja-kuca/zlatibor-dobroselica-imanje-na-hektaru-zemlje/5425642532640?kid=1           10676.0
+ https://www.halooglasi.com/nekretnine/prodaja-kuca/plantaza-borovnica-i-porodicna-kuca-izuzetna/5425642295906?kid=1            9400.0
+                     https://www.halooglasi.com/nekretnine/prodaja-kuca/luksuzna-kuca-u-sremcici/5425641735101?kid=1            8000.0
+              https://www.halooglasi.com/nekretnine/prodaja-kuca/sopot-guberevac-kuca-na-prodaju/5425642971584?kid=1            6800.0
+                   https://www.halooglasi.com/nekretnine/prodaja-kuca/irig-centar-kuca-1-28-00m2/5425636691363?kid=1            6521.0
+               https://www.halooglasi.com/nekretnine/prodaja-kuca/prostrano-imanje-povoljna-cena/5425642998033?kid=1            6083.0
+           https://www.halooglasi.com/nekretnine/prodaja-kuca/surduk-brdjanska-kuca-182m2-57-ari/5425642437481?kid=1            5700.0
+                            https://www.halooglasi.com/nekretnine/prodaja-kuca/danube-dream-home/5425643238688?kid=1            5459.0
+https://www.halooglasi.com/nekretnine/prodaja-kuca/veliki-borak-prodaja-prizemne-kuce-na-prostra/5425643220742?kid=1            5384.0
+   https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-beograd-barajevo-210m2-na-53ara-placa/5425642140987?kid=1            5300.0
+     https://www.halooglasi.com/nekretnine/prodaja-kuca/lazarevac-veliki-crljeni-odlicna-prilika/5425643147091?kid=1            5000.0
+    https://www.halooglasi.com/nekretnine/prodaja-kuca/kuca-za-rusenje-sa-okucnicom-na-dve-ulice/5425642835650?kid=1            4794.0
+     https://www.halooglasi.com/nekretnine/prodaja-kuca/lazarevac-veliki-crljeni-odlicna-prilika/5425643147090?kid=1            4600.0
+                          https://www.halooglasi.com/nekretnine/prodaja-kuca/vrcin-veliko-imanje/5425643205082?kid=1            4473.0
+          https://www.halooglasi.com/nekretnine/prodaja-kuca/surduk-brdjanska-odlicna-kuca-200m2/5425642985788?kid=1            4471.0
+                       https://www.halooglasi.com/nekretnine/prodaja-kuca/sjajna-ponuda---zamena/5425643201731?kid=1            4124.0
+           https://www.halooglasi.com/nekretnine/prodaja-kuca/beograd-surcin-mesto-kuca-3-0-97m2/5425635852343?kid=1            3880.0
+https://www.halooglasi.com/nekretnine/prodaja-kuca/becmen-kuca-sa-velikim-placem-odlicna-investi/5425643088330?kid=1            3800.0
+                  https://www.halooglasi.com/nekretnine/prodaja-kuca/nova-ozakonjena-plac-zamena/5425642731031?kid=1            3651.0
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------

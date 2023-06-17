@@ -1,0 +1,36 @@
+# Ignore PyCharm project files
+.idea/
+
+# Ignore macOS-specific file
+.DS_Store
+
+# Ignore Python virtual environment files
+venv/
+env/
+
+# Ignore compiled Python files
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore any local configuration files
+*.bak
+*.swp
+
+# Ignore any generated or compiled files
+*.log
+*.pid
+*.csv
+*.xlsx
+
+# Ignore generated documentation
+/docs/
+
+# Ignore any sensitive or private information
+secrets.txt
+
+# Ignore any build artifacts or generated files
+build/
+dist/
+*.egg-info/
+
